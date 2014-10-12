@@ -1,0 +1,27 @@
+[
+    {
+        "name": "start mongo server ...",
+        "comname": "quicknode.mongo",
+        "cmd": "mongod",
+        "rparam": ["--auth", "--dbpath", "/home/inet/mongodb/data/db"],
+        "shortcut": "Ctrl-F3",
+        "outputto": "debug"
+    },
+    {
+        "name": "start node.js ...",
+        "comname": "quicknode.nodejs",
+        "cmd": "node",
+        "rparam": ["$FILE"],
+        "shortcut": "Ctrl-F8",
+        "outputto": "debug"
+    },
+    {
+        "name": "start node.js + theseus ...",
+        "comname": "quicknode.theseuspnodejs",
+        "cmd": "node-theseus",
+        "rparam": ["--theseus-verbose", "$FILE"],
+        "shortcut": "Ctrl-F9",
+        "sigkill": "1",
+        "outputto": "debug"
+    }
+]

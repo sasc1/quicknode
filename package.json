@@ -1,0 +1,16 @@
+{
+    "name": "quicknode",
+    "title": "quicknode",
+    "description": "Extension for your custom run configurations. The available configurations concentrate on node development.",
+    "homepage": "https://github.com/sasc1/quicknode.git",
+    "version": "0.1.0",
+    "author": "sasc<samirasoftcomp@gmail.com>",
+    "files": [
+        "main.js",
+        "domain.js",
+        "README.md",
+        "runconf.json"
+    ],
+    "contributors": ["sasc"],
+    "keywords": ["node","builder","run","quicknode"]
+}
