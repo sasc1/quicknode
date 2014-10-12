@@ -27,19 +27,13 @@ To use all the default run configurations you should have node.js, theseus and m
 You can make your own run configurations with the menu entry **edit run configs** or editing the file runconf.json in the extension folder directly.
 Be sure to restart brackets after you have edited this file.
 
-The default run configuration file has entries like this:
-{% highlight javascript %}
-[
-    {
-        "name": "start mongo server ...",                               // short description of command, it is displayed in the menu
-        "comname": "quicknode.mongo",                                   // used internally, use always the "quicknode.my_command_name" format for your commands
-        "cmd": "mongod",                                                // the actual command which is executed, for example the node.js server
-        "rparam": ["--auth", "--dbpath", "/home/inet/mongodb/data/db"], // the parameter list of your command as a javascript array 
-        "shortcut": "Ctrl-F3",                                          // shortcut to execute the command in brackets
-        "outputto": "debug"                                             // place where all the output goes. options are "debug", "error", "info" and "warn"
-    }
-]
-{% javascript %}
+The default run configuration file has entries like this:  
+"name": "start mongo server ...",  // short description of command, it is displayed in the menu  
+"comname": "quicknode.mongo",  // used internally, use always the "quicknode.my_command_name" format for your commands  
+"cmd": "mongod",  // the actual command which is executed, for example the node.js server  
+"rparam": ["--auth", "--dbpath", "/home/inet/mongodb/data/db"], // the parameter list of your command as a javascript array  
+"shortcut": "Ctrl-F3", // shortcut to execute the command in brackets    
+"outputto": "debug"  // place where all the output goes. options are "debug", "error", "info" and "warn"  
 
 #### ToDo
 1. Terminate all started processes automatically if one exit brackets.
