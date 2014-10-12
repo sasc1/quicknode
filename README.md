@@ -56,4 +56,4 @@ be some hiccup if you do so.
 ####Other
 On my blog you can read some tips regarding programming and the necessary tools.
 Want some excellent IDEs for webdevelopment or some tips for angular.js ? Then visit me on
-(my blog)[http://sasc1.github.io]
+[my blog](http://sasc1.github.io)
